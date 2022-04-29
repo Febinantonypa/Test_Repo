@@ -141,7 +141,7 @@ function(error, record, runtime) {
      *
      * @since 2016.1
      */
-    function beforeUninstsall(params) {
+    function beforeUninstsall(params) {776776776
 
     }
     
