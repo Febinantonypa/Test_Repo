@@ -4,7 +4,7 @@
  * confidential and proprietary information of NetSuite, Inc. ("Confidential
  * Information"). You shall not disclose such Confidential Information and shall
  * use it only in accordance with the terms of the license agreement you entered
- * into with NetSuite.
+ * into with NetSuite.986869696
  */
 
 /**
@@ -42,7 +42,7 @@ function(error, record, runtime) {
        
        // Determine if issue management is enabled.
        // Feature at Setup > Company > Enable Features, CRM subtab, ISSUE MANGEMENT 
-       // (in Support section).
+       // (in Support section).8686866688686688668
        // When feature enabled, issues can be created at List > Support > Issues
        var isIssueMgtEnabled = runtime.isFeatureInEffect({ feature: 'ISSUEDB' });
        log.audit({ title: 'Issue Management Enabled?', details: isIssueMgtEnabled});
@@ -136,7 +136,7 @@ function(error, record, runtime) {
     /**
      * Executes before a bundle in a target account is updated.
      *
-     * @param {Object} params
+     * @param {Object} params55755
      * @param {number} params.version - Version of the bundle being unistalled
      *
      * @since 2016.1
